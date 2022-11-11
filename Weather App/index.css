@@ -1,0 +1,96 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(#023e8a, #0096c7);
+  height: 100vh;
+  width: 100%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+.current-date{
+  font-weight: 200;
+  font-size: 24px;
+}
+.current-weather{
+  font-weight: 300;
+  font-size: 60px;
+  margin: 0;
+}
+.container-current-weather{
+  width: 600px;
+  height: 200px;
+  border-right: 1px solid lightgray;
+  display: inherit;
+  justify-content: right;
+  align-items: center;
+  padding-right: 100px;
+  margin: 100px 0px;
+}
+.location-date{
+  margin-left: 30px;
+}
+.container-weather{
+  width: 600px;
+  height: 200px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.temperatures, .wind-precipitation, .sunrise-sunset{
+  text-align: center;
+  height: 200px;
+  margin: 20px;
+}
+.accesories{
+  font-weight: 300;
+  margin: 20px;
+}
+.secondary-conatiners{
+  display: inline-flex;
+  position: absolute;
+  right: 7%;
+}
+h2{
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 5px;
+}
+.todays-weather{
+    margin-left: 30px;
+    font-size: 30px;
+}
+.weather-hourly-container .card{
+  display: inline-block;
+  text-align: center;
+  height: 130px;
+  width: 13%;
+  padding: 10px;
+  margin: 0px 30px;
+  background-color: rgba(0,0,0,0.15);
+  border-radius: 10px;
+  font-weight: 200;
+  font-size: 1.25em;
+}
+.weather-hourly-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-container{
+  margin-top: 100px;
+}
+.weather-description{
+  font-size: 30px;
+}
+.main-img{
+  position: absolute;
+  left: 14%;
+  padding-bottom: 30px;
+}
+.small-img{
+  width: 60px;
+  height: 60px;
+}

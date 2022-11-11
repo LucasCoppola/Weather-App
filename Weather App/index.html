@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Weather App</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+      <div class="location-date">
+        <h1>Buenos Aires, Argentina</h1>
+      </div>
+
+      <main class="main-container">
+
+        <div class="container-weather">
+          <section class="container-current-weather">
+            <div class="text"></div>
+          </section>
+          <section class="secondary-conatiners">
+            <div class="temperatures"></div>
+            <div class="wind-precipitation"></div>
+            <div class="sunrise-sunset"></div>
+          </section>
+
+        </main>
+
+        <section class="footer-container">
+          <h2 class="todays-weather">Today's Weather</h2>
+          <section class="weather-hourly-container">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </section>
+        </section>
+
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <script src="api2.js"></script>
+    </body>
+</html>
